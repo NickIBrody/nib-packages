@@ -20,6 +20,13 @@ ns install python
 ns install ruby
 ns install git
 ns install make
+ns install wget
+ns install ssh
+ns install htop
+ns install ncdu
+ns install fastfetch
+ns install tig
+ns install cmus
 ```
 
 ## Current Format
@@ -61,6 +68,20 @@ The repository now includes larger language/runtime bundles so the system is usa
   Includes `git`, `git-core` helpers, HTTPS transport support, and the runtime libraries needed for `git clone https://...`.
 - `make`
   Includes `GNU make` as a lightweight base build tool.
+- `wget`
+  Includes a working `wget` runtime for direct downloads over HTTP and HTTPS.
+- `ssh`
+  Includes the OpenSSH client suite: `ssh`, `scp`, `sftp`, `ssh-agent`, and key tools.
+- `htop`
+  Interactive process viewer for terminal use.
+- `ncdu`
+  Terminal disk usage explorer.
+- `fastfetch`
+  System information tool with bundled presets.
+- `tig`
+  Text-mode interface for Git repositories. Best used together with the `git` package.
+- `cmus`
+  Terminal music player with bundled playback/input plugins and runtime audio libraries.
 
 ## Packaging Notes
 
