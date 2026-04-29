@@ -18,6 +18,8 @@ Examples:
 ns install nano
 ns install python
 ns install ruby
+ns install git
+ns install make
 ```
 
 ## Current Format
@@ -55,6 +57,10 @@ The repository now includes larger language/runtime bundles so the system is usa
   Includes `python3`, `pip`, stdlib, and common runtime libraries needed for `ssl`, `sqlite3`, `ctypes`, `bz2`, `lzma`, and `venv`.
 - `ruby`
   Includes `ruby`, `gem`, stdlib, native extensions, and the shared libraries needed for a working runtime.
+- `git`
+  Includes `git`, `git-core` helpers, HTTPS transport support, and the runtime libraries needed for `git clone https://...`.
+- `make`
+  Includes `GNU make` as a lightweight base build tool.
 
 ## Packaging Notes
 
