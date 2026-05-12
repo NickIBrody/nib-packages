@@ -27,6 +27,7 @@ ns install ncdu
 ns install fastfetch
 ns install tig
 ns install cmus
+ns install vex
 ```
 
 ## Current Format
@@ -82,6 +83,8 @@ The repository now includes larger language/runtime bundles so the system is usa
   Text-mode interface for Git repositories. Best used together with the `git` package.
 - `cmus`
   Terminal music player with bundled playback/input plugins and runtime audio libraries.
+- `vex`
+  Tiny `nano`-style text editor written in Rust and shipped as a static binary.
 
 ## Packaging Notes
 
